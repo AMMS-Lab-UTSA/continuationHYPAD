@@ -1,24 +1,19 @@
 # continuationHYPAD
-
-## Paper and Contributers
 Developed by David Y. Risk-Mora and collaborators. 
-See our published paper:
-1. <a href="https://.../doi/..." style="color:#268cd7"> **David Y. Risk-Mora**, Mauricio Aristizabal, Harry Millwater, David Restrepo, "*Efficient Uncertainty Quantification for Critical Buckling Loads and Determination of Knockdown Factors in Nonlinear Structures*", n/a, n/a, (2025).</a>
 
 ### Citation
 If you use this framework/dataset, build on or find our research useful for your work please cite as, 
 ```
-@article{EfficientCriticalBucklingLoadUQ_2025,
-  title={Efficient Uncertainty Quantification for Critical Buckling Loads and Determination of Knockdown Factors in Nonlinear Structures},
-  author={Risk-Mora, David Y and Aristizabal, Mauricio and Millwater, Harry and Restrepo, David},
-  journal={n/a},
-  volume={n/a},
-  number={n/a},
-  pages={n/a},
-  year={2025},
-  publisher={n/a}
+@misc{Risk-Mora2025continuationHYPAD,
+  author       = {Risk‑Mora, David Y. and Aristizabal, Mauricio and Millwater, Harry and Restrepo, David},
+  title        = {continuationHYPAD},
+  year         = {2025},
+  month        = {Mar},
+  day          = {27},
+  version      = {0.1},
+  howpublished = {\url{https://github.com/AMMS-Lab-UTSA/continuationHYPAD}},
+  note         = {GitHub repository}
 }
-
 ```
 
 ## Overview
@@ -43,7 +38,7 @@ conda develop .
 This package is tested on:
 - **Operating System:** Ubuntu running under Windows Subsystem for Linux (WSL)
 - **Python:** 3.8+
-- In order, to execute the example script the raw data must be downloaded from <a href="https://utsacloud-my.sharepoint.com/:f:/g/personal/david_risk_my_utsa_edu/EhaxI0pgsvdHq4v-u_yV4dABTNuQBRyVbgAtzqTc1wkalQ?e=mWYw2K" style="color:#268cd7"> this link</a> and placed in the directory `continuationHYPAD/MC`.
+- In order, to execute the example script the raw data must be downloaded from <a href="https://utsacloud-my.sharepoint.com/:f:/g/personal/david_risk_my_utsa_edu/EqDZgOpZVaFGpHZTN22UnP8B-fdf26iqqkx8Fnyxak3miA?e=raCe58" style="color:#268cd7"> this link</a> and placed in the directory `continuationHYPAD/MC`.
 
 ### Repository Structure
 After cloning the repository and downloading necessary data the structure should be:
@@ -135,11 +130,5 @@ import continuationHYPAD.utils
 result = continuationHYPAD.utils.function(args)
 ```
 
-## LicenseMIT License
-Copyright (c) 2025 David Y. Risk-Mora
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+## License
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
