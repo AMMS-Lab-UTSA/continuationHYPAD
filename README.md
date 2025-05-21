@@ -74,11 +74,11 @@ OMP_NUM_THREADS=1
 PYTHONPATH=. python examples/example_arch.py 
 ```
 
-# Function Documentation
-## `continuationHYPAD.continuationSolver`
+## Function Documentation
+### `continuationHYPAD.continuationSolver`
 `continuationSolver` implements a nonlinear finite element method (FEM) solver using a continuation method. This function incrementally applies the load while updating the stiffness matrix to track the structure's response, even through instabilities. In order to access the full documentation please go to <a href="https://.../doi/..." style="color:#268cd7"> this link.</a>
 
-### Key Processes
+#### Key Processes
 1. **Initialization**:
    - Extracts mesh connectivity and nodal degrees of freedom.
    - Assembles the global stiffness matrix.
@@ -104,7 +104,7 @@ PYTHONPATH=. python examples/example_arch.py
 
 This function enables efficient continuation-based solution tracking of nonlinear structural problems, making it suitable for postbuckling and stability analysis.
 
-### Usage
+#### Usage
 ```python
 import continuationHYPAD
 
@@ -126,7 +126,7 @@ U_step, lr_step, DOFexport = continuationHYPAD.continuationSolver(
 
 ### Accessing Utility Functions `continuationHYPAD.utils`
 
-### Usage
+#### Usage
 You import utility functions:
 ```python
 from continuationHYPAD.utils import function
