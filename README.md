@@ -1,5 +1,5 @@
 # continuationHYPAD
-Developed by David Y. Risk-Mora and collaborators. 
+Developed by [David Y. Risk-Mora](https://orcid.org/0000-0002-7004-408X) and collaborators. 
 
 ## Markings
 ### Distribution
