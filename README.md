@@ -8,11 +8,8 @@ Distribution Statement A: Approved for Public Release; Distribution is Unlimited
 ### Acknowledgement 
 This material is based on research sponsored by the Air Force Research Laboratory under agreement number FA8650-20-2-5853. The U.S. Government is authorized to reproduce and distribute reprints for Government purposes notwithstanding any copyright notation thereon. The views and conclusions contained herein are those of the authors and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of the Air Force Research Laboratory of the U.S. Government.
 
-## Citation
-If you use this framework/dataset, build on or find our research useful for your work please cite as, 
-
 ## Paper/Citation
-This repository was used for computing all resulting in the following <a href="https://doi.org/10.1016/j.ijsolstr.2025.113734" style="color:#268cd7"> publication (https://doi.org/10.1016/j.ijsolstr.2025.113734).</a>. If you use this framework/dataset, build on or find our research useful for your work please cite as, 
+This repository was used for computing all resulting in the following <a href="https://doi.org/10.1016/j.ijsolstr.2025.113734" style="color:#268cd7"> publication (https://doi.org/10.1016/j.ijsolstr.2025.113734).</a> If you use this framework/dataset, build on or find our research useful for your work please cite as, 
 ```
 @article{RiskMora2025_continuationHYPAD,
 	author = {David Y. Risk-Mora and Mauricio Aristizabal and Harry Millwater and David Restrepo},
