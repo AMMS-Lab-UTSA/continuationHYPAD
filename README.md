@@ -10,16 +10,19 @@ This material is based on research sponsored by the Air Force Research Laborator
 
 ## Citation
 If you use this framework/dataset, build on or find our research useful for your work please cite as, 
+
+## Paper/Citation
+This repository was used for computing all resulting in the following <a href="https://doi.org/10.1016/j.ijsolstr.2025.113734" style="color:#268cd7"> publication (https://doi.org/10.1016/j.ijsolstr.2025.113734).</a>. If you use this framework/dataset, build on or find our research useful for your work please cite as, 
 ```
-@misc{Risk-Mora2025continuationHYPAD,
-  author       = {Risk‑Mora, David Y. and Aristizabal, Mauricio and Millwater, Harry and Restrepo, David},
-  title        = {continuationHYPAD},
-  year         = {2025},
-  month        = {Mar},
-  day          = {27},
-  version      = {0.1},
-  howpublished = {\url{https://github.com/AMMS-Lab-UTSA/continuationHYPAD}},
-  note         = {GitHub repository}
+@article{RiskMora2025_continuationHYPAD,
+	author = {David Y. Risk-Mora and Mauricio Aristizabal and Harry Millwater and David Restrepo},
+	title = {Efficient uncertainty quantification for critical buckling loads and determination of knockdown factors in nonlinear structures},
+	journal = {International Journal of Solids and Structures},
+	pages = {113734},
+	year = {2025},
+	issn = {0020-7683},
+	doi = {https://doi.org/10.1016/j.ijsolstr.2025.113734},
+	url = {https://www.sciencedirect.com/science/article/pii/S0020768325005207}
 }
 ```
 
